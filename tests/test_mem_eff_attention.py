@@ -79,6 +79,7 @@ ALL_OPS: Sequence[Type[xformers.ops.AttentionOpBase]] = [
     xformers.ops.MemoryEfficientAttentionCutlassOp,
     xformers.ops.MemoryEfficientAttentionFlashAttentionOp,
     xformers.ops.MemoryEfficientAttentionCutlassFwdFlashBwOp,
+    xformers.ops.TritonFlashAttentionOp,
 ]
 
 
