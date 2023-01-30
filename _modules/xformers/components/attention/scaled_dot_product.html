@@ -12,7 +12,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>xformers.components.attention.scaled_dot_product | xFormers 0.0.15.dev documentation</title>
+  <title>xformers.components.attention.scaled_dot_product | xFormers 0.0.16 documentation</title>
   
   <script src="../../../../_static/js/ga.js"></script>
   <script src="../../../../_static/js/redirect.js"></script>
@@ -22,7 +22,7 @@
   
   <link rel="canonical" href="https://facebookresearch.github.io/xformers_modules/xformers/components/attention/scaled_dot_product.html" />
   
-  <meta property="og:title" content="xformers.components.attention.scaled_dot_product | xFormers 0.0.15.dev documentation">
+  <meta property="og:title" content="xformers.components.attention.scaled_dot_product | xFormers 0.0.16 documentation">
   <meta name="description" content="API docs for xFormers. xFormers is a PyTorch extension library for composable and optimized Transformer blocks.">
   <meta property="og:description" content="API docs for xFormers. xFormers is a PyTorch extension library for composable and optimized Transformer blocks.">
   <!--<meta property="og:image" content="https://mmf.sh/img/logo.png">-->
@@ -257,7 +257,7 @@
 
 <div class="viewcode-block" id="ScaledDotProduct"><a class="viewcode-back" href="../../../../components/attentions.html#xformers.components.attention.ScaledDotProduct">[docs]</a><span class="nd">@register_attention</span><span class="p">(</span><span class="s2">&quot;scaled_dot_product&quot;</span><span class="p">,</span> <span class="n">ScaledDotProductConfig</span><span class="p">)</span>
 <span class="k">class</span> <span class="nc">ScaledDotProduct</span><span class="p">(</span><span class="n">Attention</span><span class="p">):</span>
-    <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Implementing the Scaled Dot-Product attention proposed in</span>
 <span class="sd">    `Attention is all you need`_, Vaswani et al.</span>
 
@@ -299,7 +299,7 @@
         <span class="o">*</span><span class="n">args</span><span class="p">,</span>
         <span class="o">**</span><span class="n">kwargs</span><span class="p">,</span>
     <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">torch</span><span class="o">.</span><span class="n">Tensor</span><span class="p">:</span>
-        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        att_mask    A 2D or 3D mask which ignores attention at certain positions.</span>
 
 <span class="sd">                    - If the mask is boolean, a value of True will keep the value,</span>

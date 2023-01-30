@@ -12,7 +12,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>xformers.components.attention.global_tokens | xFormers 0.0.15.dev documentation</title>
+  <title>xformers.components.attention.global_tokens | xFormers 0.0.16 documentation</title>
   
   <script src="../../../../_static/js/ga.js"></script>
   <script src="../../../../_static/js/redirect.js"></script>
@@ -22,7 +22,7 @@
   
   <link rel="canonical" href="https://facebookresearch.github.io/xformers_modules/xformers/components/attention/global_tokens.html" />
   
-  <meta property="og:title" content="xformers.components.attention.global_tokens | xFormers 0.0.15.dev documentation">
+  <meta property="og:title" content="xformers.components.attention.global_tokens | xFormers 0.0.16 documentation">
   <meta name="description" content="API docs for xFormers. xFormers is a PyTorch extension library for composable and optimized Transformer blocks.">
   <meta property="og:description" content="API docs for xFormers. xFormers is a PyTorch extension library for composable and optimized Transformer blocks.">
   <!--<meta property="og:image" content="https://mmf.sh/img/logo.png">-->
@@ -270,7 +270,7 @@
         <span class="o">*</span><span class="n">_</span><span class="p">,</span>
         <span class="o">**</span><span class="n">__</span><span class="p">,</span>
     <span class="p">):</span>
-        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Global attention, as proposed for instance in BigBird_ or Longformer_.</span>
 
 <span class="sd">        Global means in that case that the queries positively labelled in the ```attention_query_mask``` can attend</span>
@@ -281,7 +281,7 @@
 
 <span class="sd">        Args:</span>
 <span class="sd">            dropout (float): probability of an element to be zeroed</span>
-<span class="sd">            attention_mask (torch.Tensor): if true, this query can attend to all the others</span>
+<span class="sd">            attention_query_mask (torch.Tensor): if true, this query can attend to all the others</span>
 
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
